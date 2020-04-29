@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2020 Acoustic, L.P.
+  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~  Apache License, Version 2.0
+  ~  www.apache.org
+  ~  Home page of The Apache Software Foundation
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an
+  ~  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and limitations under the License.
+  -->
+
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="textColorWhite">#ffffff</color>
+    <color name="textColorDark">#000000</color>
+    <color name="textColorGray">#c7c7c7</color>
+
+    <color name="colorDarkBackground">#BF000000</color>
+    <color name="colorLightBackground">#33000000</color>
+
+    <color name="colorIndicatorSelected">#fafafa</color>
+    <color name="colorIndicatorUnselected">#c7c7c7</color>
+</resources>

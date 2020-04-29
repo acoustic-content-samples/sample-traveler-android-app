@@ -1,0 +1,82 @@
+<!--
+  ~ Copyright 2020 Acoustic, L.P.
+  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~  Apache License, Version 2.0
+  ~  www.apache.org
+  ~  Home page of The Apache Software Foundation
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an
+  ~  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and limitations under the License.
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="no_data_margin">8dp</dimen>
+
+    <!-- About Information start -->
+    <dimen name="about_text_margin">12dp</dimen>
+    <dimen name="about_text_title_size">28sp</dimen>
+    <dimen name="about_text_content_size">20sp</dimen>
+    <!-- About Information end -->
+
+    <!-- Home Information start -->
+    <dimen name="home_item_image_min_height">48dp</dimen>
+    <dimen name="home_item_title_margin">12dp</dimen>
+    <dimen name="home_item_title_margin_bottom">8dp</dimen>
+    <dimen name="home_item_title_padding">8dp</dimen>
+    <dimen name="home_item_gallery_title_margin">18dp</dimen>
+    <dimen name="home_item_gallery_title_text_margin">8dp</dimen>
+    <dimen name="home_item_gallery_title_size">24sp</dimen>
+    <dimen name="home_item_gallery_text_size">12sp</dimen>
+    <dimen name="home_item_article_height">92dp</dimen>
+    <dimen name="home_item_article_title_size">18sp</dimen>
+    <dimen name="home_item_article_country_size">14sp</dimen>
+    <dimen name="home_item_article_text_size">12sp</dimen>
+    <!-- Home Information end -->
+
+    <!-- Gallery start -->
+    <dimen name="gallery_item_margin_top_bottom">6dp</dimen>
+    <dimen name="gallery_item_margin_start_end">12dp</dimen>
+    <dimen name="gallery_item_elevation">4dp</dimen>
+    <dimen name="gallery_item_image_min_height">72dp</dimen>
+    <dimen name="gallery_item_corner_radius">6dp</dimen>
+    <dimen name="gallery_item_title_margin">12dp</dimen>
+    <dimen name="gallery_item_title_padding">8dp</dimen>
+    <!-- Gallery end -->
+
+    <!-- Image Details start -->
+    <dimen name="image_details_margin">8dp</dimen>
+    <dimen name="image_details_margin_top">16dp</dimen>
+    <dimen name="image_details_text_size">20sp</dimen>
+    <!-- Image Details end -->
+
+    <!-- Article Details start -->
+    <dimen name="article_details_margin">12dp</dimen>
+    <dimen name="article_details_title_margin">8dp</dimen>
+    <dimen name="article_details_margin_top">16dp</dimen>
+    <dimen name="article_details_title_size">24sp</dimen>
+    <dimen name="article_details_subtitle_size">16sp</dimen>
+    <dimen name="article_details_text_size">20sp</dimen>
+    <!-- Article Details end -->
+
+    <!-- Contact Information start -->
+    <dimen name="contact_text_margin">16dp</dimen>
+    <dimen name="contact_text_size">20sp</dimen>
+    <!-- Contact Information end -->
+
+    <!-- Destinations start -->
+    <dimen name="destination_tab_elevation">4dp</dimen>
+    <dimen name="country_item_margin_top_bottom">6dp</dimen>
+    <dimen name="country_item_margin_start_end">12dp</dimen>
+    <dimen name="country_item_elevation">4dp</dimen>
+    <dimen name="country_item_image_min_height">48dp</dimen>
+    <dimen name="country_item_corner_radius">6dp</dimen>
+    <dimen name="country_item_title_margin">12dp</dimen>
+    <dimen name="country_item_title_padding">8dp</dimen>
+    <!-- Destinations end -->
+</resources>

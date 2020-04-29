@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2020 Acoustic, L.P.
+  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~  Apache License, Version 2.0
+  ~  www.apache.org
+  ~  Home page of The Apache Software Foundation
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an
+  ~  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and limitations under the License.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/home_item_title_margin">
+
+    <ImageView
+        android:id="@+id/image_article"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_item_article_height"
+        android:minHeight="@dimen/home_item_image_min_height"
+        android:src="@drawable/ic_image_grey_24dp"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/title_article"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/home_item_title_margin"
+        android:textColor="@color/textColorDark"
+        android:textSize="@dimen/home_item_article_title_size"
+        android:gravity="start"
+        app:layout_constraintStart_toEndOf="@+id/image_article"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/author_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/home_item_title_margin"
+        android:textSize="@dimen/home_item_article_text_size"
+        app:layout_constraintStart_toEndOf="@+id/image_article"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="By mr. Smith" />
+
+    <TextView
+        android:id="@+id/date_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/home_item_title_margin"
+        android:textSize="@dimen/home_item_article_text_size"
+        app:layout_constraintStart_toEndOf="@+id/author_article"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="Oct 24 2019" />
+
+    <TextView
+        android:id="@+id/country_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/home_item_title_margin"
+        android:layout_marginBottom="@dimen/home_item_title_margin_bottom"
+        android:textSize="@dimen/home_item_article_country_size"
+        app:layout_constraintStart_toEndOf="@+id/image_article"
+        app:layout_constraintBottom_toTopOf="@+id/author_article"
+        tools:text="Canada" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

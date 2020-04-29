@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2020 Acoustic, L.P.
+  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~  Apache License, Version 2.0
+  ~  www.apache.org
+  ~  Home page of The Apache Software Foundation
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an
+  ~  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and limitations under the License.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.acoustic.contenthub.sample.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_image_details"
+            app:destination="@id/navigation_image_details"/>
+        <action
+            android:id="@+id/action_search"
+            app:destination="@id/navigation_search"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.acoustic.contenthub.sample.ui.about.AboutFragment"
+        android:label="@string/title_about"
+        tools:layout="@layout/fragment_about">
+
+        <action
+            android:id="@+id/action_search"
+            app:destination="@id/navigation_search"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_destinations"
+        android:name="com.acoustic.contenthub.sample.ui.destinations.DestinationsFragment"
+        android:label="@string/title_destinations"
+        tools:layout="@layout/fragment_destinations">
+
+        <action
+            android:id="@+id/action_articles"
+            app:destination="@id/navigation_articles"/>
+        <action
+            android:id="@+id/action_search"
+            app:destination="@id/navigation_search"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_articles"
+        android:name="com.acoustic.contenthub.sample.ui.destinations.articles.ArticlesFragment"
+        android:label="@string/title_articles"
+        tools:layout="@layout/fragment_articles">
+
+        <action
+            android:id="@+id/action_search"
+            app:destination="@id/navigation_search"/>
+    </fragment>
+
+    <!-- Global action used in few navigation points -->
+    <action
+        android:id="@+id/action_article_details"
+        app:destination="@id/navigation_article_details"/>
+
+    <fragment
+        android:id="@+id/navigation_article_details"
+        android:name="com.acoustic.contenthub.sample.ui.destinations.article_details.ArticleDetailsFragment"
+        android:label="@string/title_article_details"
+        tools:layout="@layout/fragment_article_details">
+
+        <action
+            android:id="@+id/action_search"
+            app:destination="@id/navigation_search"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.acoustic.contenthub.sample.ui.gallery.GalleryFragment"
+        android:label="@string/title_gallery"
+        tools:layout="@layout/fragment_gallery">
+
+        <action
+            android:id="@+id/action_image_details"
+            app:destination="@id/navigation_image_details"/>
+        <action
+            android:id="@+id/action_search"
+            app:destination="@id/navigation_search"/>
+    </fragment>
+
+    <activity
+        android:id="@+id/navigation_image_details"
+        android:name="com.acoustic.contenthub.sample.ui.gallery.image_details.ImageDetailsActivity"
+        android:label="@string/title_image_details"
+        tools:layout="@layout/activity_image_details"/>
+
+    <activity
+        android:id="@+id/navigation_contacts"
+        android:name="com.acoustic.contenthub.sample.ui.contacts.ContactsActivity"
+        android:label="@string/title_contacts"
+        tools:layout="@layout/activity_contacts"/>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.acoustic.contenthub.sample.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search">
+
+        <action
+            android:id="@+id/action_image_details"
+            app:destination="@id/navigation_image_details"/>
+        <action
+            android:id="@+id/action_article_details"
+            app:destination="@id/navigation_article_details"/>
+    </fragment>
+</navigation>
