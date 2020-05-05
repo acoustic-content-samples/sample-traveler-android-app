@@ -50,5 +50,14 @@ All hub information containing domain, IDs and URLs for the hub can be found ins
 - Click the 'Hub information' option.
 - Find a delivery URL and hub ID on 'Hub Information' pop-up window.
 
+### Resources
+
+Acoustic Content developer documentation: https://developer.goacoustic.com/acoustic-content/docs
+
+Acoustic Content API reference documentation: https://developer.goacoustic.com/acoustic-content/reference
+
+Acoustic Content Samples Gallery: https://content-samples.goacoustic.com/
+
+
 
 
