@@ -20,12 +20,12 @@ package com.acoustic.contenthub.sample;
 public interface Constants {
 
     /**
-     * Represents Watson Content Hub domain name.
+     * Represents Acoustic Content domain name.
      */
-    String BASE_URL = "https://my7.content-cms.com";
+    String BASE_URL = "https://content-us-7.content-cms.com";
 
     /**
-     * Represents Watson Content Hub api id.
+     * Represents Acoustic Content api id.
      */
     String CONTENT_HUB_ID = "ae6a1610-fd30-4b81-8871-0f7f11f95426";
 
