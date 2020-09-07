@@ -42,6 +42,8 @@ In order to run this sample, the following is required:
 	- CONTENT_HUB_ID - with your tenant ID
 	- BASE_URL - with your hostname
 
+4. Build and run the app.
+
 The hostname can be extracted from the delivery URL of your tenant, (e.g. `hostname/content_tenant_id/`).
 
 All hub information containing domain, IDs and URLs for the hub can be found inside Acoustic Content (_Sidebar > About > Hub Information_):
