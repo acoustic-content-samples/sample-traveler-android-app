@@ -22,12 +22,12 @@ public interface Constants {
     /**
      * Represents Acoustic Content domain name.
      */
-    String BASE_URL = "https://content-us-7.content-cms.com";
+    String BASE_URL = "https://your-domain-name.com";
 
     /**
      * Represents Acoustic Content api id.
      */
-    String CONTENT_HUB_ID = "ae6a1610-fd30-4b81-8871-0f7f11f95426";
+    String CONTENT_HUB_ID = "00000000-0000-0000-0000-00000000000";
 
     String API_URL = BASE_URL + "/api/" + CONTENT_HUB_ID + "/";
 
