@@ -26,7 +26,7 @@ In order to run this sample, the following is required:
 
 - Java SDK v13.0.1 or above must be installed. It is available from here: https://www.oracle.com/technetwork/java/javase/downloads/index.html.
 
-- Android Studio v. 3.5.3 or above must be installed. It is available from here: https://developer.android.com/studio/index.html%23downloads. The installation guide is here: https://developer.android.com/studio/install.
+- Android Studio v. 3.5.3 or above must be installed. It is available from here: https://developer.android.com/studio. The installation guide is here: https://developer.android.com/studio/install.
 
 - Android SDK Build - Tools version 29.0.2 and Android SDK Platform version 29 (Android Q) must be installed using ​AndroidStudio SDK manager.
 
